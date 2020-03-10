@@ -1,0 +1,17 @@
+@media (max-width: 960px) {
+  .header__banners {
+    display: none;
+  }
+  .wrapper {
+    width: 80%;
+  }
+  .header__logoBox__text {
+    font-size: 28px;
+  }
+  .header__logoBox {
+    width: 178px;
+  }
+  /* .main {
+    display: none;
+  } */
+}
