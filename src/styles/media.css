@@ -186,7 +186,7 @@
     background-position: 50% 156px;
   }
   .main__sectionThird {
-    grid-template-rows: repeat(2, 520px);
+    grid-template-rows: repeat(5, 490px);
   }
 }
 @media (max-width: 500px) {
@@ -240,7 +240,10 @@
     font-size: 26px;
   }
   .grid {
-    grid-gap: 60px;
+    grid-row-gap: 60px;
+  }
+  .main__sectionThird-item {
+    grid-template-rows: 228px 250px;
   }
 }
 @media (max-width: 400px) {
